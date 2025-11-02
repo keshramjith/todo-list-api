@@ -1,5 +1,4 @@
-@main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
+import zio._
 
-def msg = "I was compiled by Scala 3. :)"
+object HelloZIO extends ZIOAppDefault:
+  def run = Console.printLine("Hello, World!")
