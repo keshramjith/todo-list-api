@@ -9,6 +9,8 @@ lazy val root = project
     scalaVersion := scala3Version,
 
     libraryDependencies ++= Seq(
-      "dev.zio" %% "zio" % "2.1.22"
+      "dev.zio" %% "zio" % "2.1.22",
+      "dev.zio" %% "zio-http" % "3.5.1",
+      "dev.zio" %% "zio-json" % "0.7.45",
       )
   )
